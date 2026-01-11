@@ -67,7 +67,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Boxes */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto justify-center">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto justify-center p-4 md:p-0">
           {skillCategories.map((item) => (
             <div
               key={item.title}

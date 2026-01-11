@@ -20,15 +20,24 @@ const About = () => {
       {/* *******BOXEX********* */}
       <div>
         <div className="flex flex-col md:flex-row justify-evenly items-center">
-          <div className="relative flex justify-center items-center py-20 ">
+          <div className="relative flex justify-center items-center py-20 w-full overflow-x-hidden ">
             {/* Background div 1 */}
-            <div className="absolute w-110 h-110 bg-pink-100 rounded-2xl -rotate-6"></div>
+            <div
+              className="absolute w-[90%] max-w-[440px] h-auto md:h-110
+ h-110 bg-pink-100 rounded-2xl -rotate-6"
+            ></div>
 
             {/* Background div 2 */}
-            <div className="absolute w-110 h-110 bg-purple-100 rounded-2xl rotate-6"></div>
+            <div
+              className="absolute w-[90%] max-w-[440px] h-auto md:h-110
+ h-110 bg-purple-100 rounded-2xl rotate-6"
+            ></div>
 
             {/* Main div */}
-            <div className="flex relative z-10 w-110 h-110 bg-white rounded-2xl flex-col items-center justify-center ">
+            <div
+              className="flex relative z-10 w-[90%] max-w-[440px] h-auto md:h-110
+ h-110 bg-white rounded-2xl flex-col items-center justify-center "
+            >
               {/* img div */}
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-linear-to-br bg-purple-300 from-pink-300 flex items-center justify-center text-6xl">
                 👩‍💻
@@ -37,7 +46,7 @@ const About = () => {
                 <h1 className="text-2xl font-bold">Arabindu Chakraborty</h1>
                 <p className="text-xl text-teal-600">Full Stack Developer</p>
               </div>
-              <div className="flex gap-6 mt-8">
+              <div className="flex gap-6 mt-8 px-4 md:px-0">
                 <div className="h-20 w-28 bg-blue-50 rounded-xl flex flex-col items-center justify-center">
                   <h1 className="text-pink-400 text-2xl font-bold">19+</h1>
                   <h2 className="text-[13px] text-slate-500">Months Exp</h2>
@@ -55,8 +64,8 @@ const About = () => {
           </div>
 
           {/* 2nd box */}
-          <div className=" flex flex-col gap-6">
-            <div className="h-62 w-110 bg-green-100 p-4 rounded-4xl border border-green-200 shadow-lg hover:scale-105 duration-500 transition-all">
+          <div className=" flex flex-col gap-6 px-4 md:px-0">
+            <div className="h-auto w-full md:w-110 bg-green-100 p-4 rounded-4xl border border-green-200 shadow-lg hover:scale-105 duration-500 transition-all">
               <h1 className="text-xl font-semibold mt-6">💖 Hello there</h1>
               <p className="py-4">
                 I'm a passionate full-stack developer with a love for creating
@@ -65,7 +74,7 @@ const About = () => {
                 open-source projects, or enjoying a good cup of coffee ☕
               </p>
             </div>
-            <div className="h-48 w-110 bg-yellow-50 p-4 rounded-4xl shadow-2xl">
+            <div className="h-auto w-full md:w-110 bg-yellow-50 p-4 rounded-4xl shadow-2xl">
               <h1 className="text-xl font-semibold mt-6">
                 🛠️ Technologies I Love
               </h1>
