@@ -131,7 +131,7 @@ const Contact = () => {
                   opportunities.
                 </p>
                 <div className="flex items-center justify-center gap-2 text-pink-500 font-bold">
-                  <Heart className="w-4 h-4 animate-pulse" />
+                  <Heart className="w-4 h-4 animate-pulse " />
                   <span>Looking forward to connecting!</span>
                 </div>
               </div>

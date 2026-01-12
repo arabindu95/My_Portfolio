@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Authentication",
     description:
-      "Real-time chat application with rooms, emojis, and file sharing.",
+      "Implemented user authentication using JWT and cookies, enabling secure login and session management.",
     image: "🛂",
     tags: ["React", "Tailwind", "Nodejs", "Express", "MongoDB"],
     color: "bg-zinc-200",
@@ -61,7 +61,7 @@ const projects = [
   {
     title: "Clock",
     description:
-      "Modern blogging platform with markdown support and SEO optimization.",
+      "Created a functional digital clock , demonstrating DOM manipulation and dynamic UI updates.",
     image: "🕒",
     tags: ["HTML", "CSS", "javascript"],
     color: "bg-fuchsia-200",
@@ -93,7 +93,7 @@ const Projects = () => {
               </span>
             </span>
           </h1>
-          <p className="text-slate-700 text-lg mt-4">
+          <p className="text-slate-700 text-lg mt-4 text-center">
             A collection of projects I've built with love and dedication
           </p>
         </div>
