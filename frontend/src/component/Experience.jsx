@@ -51,7 +51,7 @@ const experiences = [
   {
     year: "2014 – 2017",
     title: "Bachelor’s Degree",
-    company: "College / University",
+    company: "College",
     description:
       "Completed undergraduate studies and built a strong academic foundation that shaped my analytical thinking.",
     icon: GraduationCap,
@@ -61,8 +61,7 @@ const experiences = [
     year: "2013",
     title: "Higher Secondary Education (HS)",
     company: "West Bengal Council of Higher Secondary Education",
-    description:
-      "Completed Higher Secondary education with a focus on science and technical subjects.",
+    description: "I completed my Higher Secondary education in Arts.",
     icon: GraduationCap,
     color: "bg-emerald-100 text-emerald-700",
   },
@@ -70,7 +69,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience " className="mb-15">
+    <section id="experience" className="mb-15">
       <div className="p-4">
         {/* HEADER */}
         <div className="flex flex-col justify-center items-center mt-20 mb-20">

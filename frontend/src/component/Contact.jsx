@@ -47,7 +47,7 @@ const Contact = () => {
               </span>
             </span>
           </h1>
-          <p className="text-slate-700 text-lg mt-4">
+          <p className="text-slate-700 text-lg mt-4 text-center">
             Have a project in mind? I'd love to hear from you!
           </p>
         </div>

@@ -61,7 +61,7 @@ const Skills = () => {
                 </span>
               </span>
             </h1>
-            <p className="text-slate-700 text-lg mt-4">
+            <p className="text-slate-700 text-lg mt-4 text-center">
               Technologies and tools I work with to bring ideas to life
             </p>
           </div>

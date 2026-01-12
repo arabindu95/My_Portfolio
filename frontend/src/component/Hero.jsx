@@ -35,7 +35,7 @@ const Hero = () => {
                           1500,
                           "Full Stack Developer",
                           1500,
-                          "MERN Stack Engineer",
+                          "MERN Stack Developer",
                           1500,
                           "React & Node.js Developer",
                           1500,
@@ -72,7 +72,13 @@ const Hero = () => {
               <div className="flex flex-col md:flex-row justify-center gap-6 pb-16 py-10">
                 <div className="flex ">
                   <Link
-                    to="/products"
+                    onClick={() => {
+                      const projectSection =
+                        document.getElementById("projects");
+                      if (projectSection) {
+                        projectSection.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
                     className="flex p-4 justify-center items-center md:w-56 gap-4 rounded-lg shadow-xs shadow-gray-600  hover:shadow-teal-500 font-semibold hover:scale-110 duration-1000 transition-all w-full bg-linear-to-bl bg-pink-300 to-red-300"
                   >
                     <h2>View Projects</h2>
@@ -82,7 +88,14 @@ const Hero = () => {
 
                 <div className="flex ">
                   <Link
-                    to="/recommendations"
+                    onClick={() => {
+                      const projectSection = document.getElementById("contact");
+                      if (projectSection) {
+                        projectSection.scrollIntoView({
+                          behavior: "smooth",
+                        });
+                      }
+                    }}
                     className="flex p-4 justify-center items-center md:w-64 border font-semibold border-red-300 hover:text-black hover:bg-red-300 hover:font-semibold hover:scale-110 duration-1000 rounded-lg transition-all w-full text-red-300 bg-red-100"
                   >
                     <h2>Hire Me</h2>

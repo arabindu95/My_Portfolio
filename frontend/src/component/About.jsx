@@ -47,15 +47,15 @@ const About = () => {
                 <p className="text-xl text-teal-600">Full Stack Developer</p>
               </div>
               <div className="flex gap-6 mt-8 px-4 md:px-0">
-                <div className="h-20 w-28 bg-blue-50 rounded-xl flex flex-col items-center justify-center">
+                <div className="h-20 w-auto md:w-28 px-4 bg-blue-100 rounded-xl flex flex-col items-center justify-center">
                   <h1 className="text-pink-400 text-2xl font-bold">19+</h1>
                   <h2 className="text-[13px] text-slate-500">Months Exp</h2>
                 </div>
-                <div className="h-20 w-28 bg-green-50 rounded-xl flex flex-col items-center justify-center">
+                <div className="h-20 w-auto md:w-28 px-4 bg-green-100 rounded-xl flex flex-col items-center justify-center">
                   <h1 className=" text-2xl font-bold">15+</h1>
                   <h2 className="text-[13px] text-slate-500">Projects</h2>
                 </div>
-                <div className="h-20 w-28 bg-red-50 rounded-xl flex flex-col items-center justify-center">
+                <div className="h-20 w-auto md:w-28 px-4 bg-red-100 rounded-xl flex flex-col items-center justify-center">
                   <h1 className="text-2xl font-bold">15+</h1>
                   <h2 className="text-[13px] text-slate-500">Clients</h2>
                 </div>
