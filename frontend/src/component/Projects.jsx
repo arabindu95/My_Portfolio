@@ -71,7 +71,7 @@ const projects = [
   {
     title: "Calculator",
     description: "Calculator Application built with HTML, Css and JavaScript",
-    image: "🧮",
+    image: "🖩",
     tags: ["HTML", "CSS", "javascript"],
     color: "bg-lime-50",
     liveUrl: "file:///H:/WEB%20-%20DEVELOPEMENT/calculator%20project/index.htm",
