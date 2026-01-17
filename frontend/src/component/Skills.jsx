@@ -9,8 +9,6 @@ const skillCategories = [
     iconColor: "text-primary",
     skills: [
       { name: "React", icon: "⚛️" },
-      { name: "Next.js", icon: "▲" },
-      { name: "TypeScript", icon: "💙" },
       { name: "Tailwind CSS", icon: "🎨" },
       { name: "HTML/CSS", icon: "🌐" },
       { name: "JavaScript", icon: "💛" },
@@ -25,9 +23,7 @@ const skillCategories = [
       { name: "Node.js", icon: "🟢" },
       { name: "Express", icon: "⚡" },
       { name: "MongoDB", icon: "🍃" },
-      { name: "PostgreSQL", icon: "🐘" },
       { name: "REST APIs", icon: "🔗" },
-      { name: "GraphQL", icon: "◈" },
     ],
   },
   {
@@ -37,11 +33,10 @@ const skillCategories = [
     iconColor: "text-accent-foreground",
     skills: [
       { name: "Git", icon: "📦" },
-      { name: "Docker", icon: "🐳" },
       { name: "VS Code", icon: "💻" },
       { name: "Figma", icon: "🎯" },
-      { name: "AWS", icon: "☁️" },
-      { name: "Linux", icon: "🐧" },
+      { name: "CLOUDINARY", icon: "☁️" },
+      { name: "Windows", icon: "🖱️💻" },
     ],
   },
 ];
